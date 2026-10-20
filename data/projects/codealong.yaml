@@ -1,0 +1,19 @@
+name: Codealong
+repo: https://github.com/codealong/codealong
+homepage: https://www.codealong.com
+tagline: Desktop app that puts every OpenCode session on one board with your Claude Code, Codex, Antigravity and Cursor ones
+description: A free, open-source (Apache-2.0) app for macOS and Linux that finds every OpenCode session on your machine, wherever it started, alongside Claude Code, Codex, Antigravity and Cursor sessions, and organizes them by project, repo, worktree, branch and pull request. It shows what each agent is doing and brings the ones that need you to the front; you can allow a command, answer a question or reply from a floating bar, the MacBook notch or a Waiting on you window, open any session where it lives, read full transcripts, and start new work in the right worktree. It reads the records each agent already writes and doesn't wrap or proxy OpenCode, with no account, API key or server needed.
+tags:
+  - desktop
+  - sessions
+  - monitoring
+  - worktrees
+  - multi-agent
+installation: |
+  Download the macOS app from the [latest release](https://github.com/codealong/codealong/releases/latest), or:
+
+  ```bash
+  brew install --cask codealong/tap/codealong
+  ```
+
+  On Linux (X11), build it from source for now.
